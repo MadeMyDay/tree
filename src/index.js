@@ -1,3 +1,5 @@
+import 'typeface-roboto'
+
 import Tree from './Tree';
 import TreeNode from './TreeNode';
 

@@ -161,7 +161,7 @@ describe('Util', () => {
       });
 
       it('not exist', () => {
-        console.log('>>> Follow Warning is for test purpose. Don\'t be scared :)');
+        // console.log('>>> Follow Warning is for test purpose. Don\'t be scared :)');
         const tree = genTree();
         const { keyEntities } = convertTreeToEntities(tree.props.children);
         const { checkedKeys, halfCheckedKeys } =

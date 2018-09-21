@@ -1,5 +1,5 @@
 /* eslint no-console:0, react/no-danger: 0 */
-import 'rc-tree/assets/index.less';
+import 'rc-tree/assets/mui.less';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Tree, { TreeNode } from 'rc-tree';
@@ -48,9 +48,10 @@ const animation = {
 
 const demo = (
   <div>
-    <h2>expanded test hallo</h2>
+    <h2>MUI Test</h2>
     <style dangerouslySetInnerHTML={{ __html: STYLE }}/>
     <Tree
+      showLine
       defaultExpandAll={false}
       defaultExpandedKeys={['p1']}
       openAnimation={animation}

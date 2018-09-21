@@ -88,6 +88,7 @@
     "rc-animate": "^3.0.0-rc.5",
     "rc-util": "^4.5.1",
     "react-lifecycles-compat": "^3.0.4",
+    "typeface-roboto": "0.0.54",
     "warning": "^3.0.0"
   },
   "pre-commit": [

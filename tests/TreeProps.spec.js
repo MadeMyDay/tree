@@ -339,7 +339,7 @@ describe('Tree Props', () => {
     });
 
     it('number', () => {
-      console.log('>>> Follow Warning is for test purpose. Don\'t be scared :)');
+      // console.log('>>> Follow Warning is for test purpose. Don\'t be scared :)');
       const wrapper = genWrapper(123);
       expect(wrapper.render()).toMatchSnapshot();
     });
