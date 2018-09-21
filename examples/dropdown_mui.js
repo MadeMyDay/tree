@@ -204,6 +204,7 @@ class Demo extends React.Component {
     const overlay = (<div>
       <input className="tree__search" placeholder="Search Tree" value={this.state.inputValue} onChange={this.onChange} />
       <Tree
+        showLine
         onExpand={this.onExpand} expandedKeys={expandedKeys}
         autoExpandParent={autoExpandParent}
         onSelect={this.onSelect} filterTreeNode={this.filterTreeNode}
